@@ -34,8 +34,8 @@ jobs:
         run: pip install pyraider
 
       # Step 5: Run Pyraider scan
-      - name: Run Pyraider
-        run: pyraider audit
+      - name: Run Pyraider check
+        run: pyraider check -f requirements.txt
 
       # Step 6: Upload Pyraider results
       - name: Upload Pyraider results

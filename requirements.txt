@@ -1,0 +1,12 @@
+# Dependencies are estimated guesses
+Flask==2.2.5
+Flask-WTF==1.1.1
+Flask-SQLAlchemy==3.0.5
+Flask-Login==0.6.3
+Flask-Migrate==4.0.5
+Jinja2==3.1.2
+Werkzeug==2.2.3
+itsdangerous==2.1.2
+requests==2.31.0
+pyraider==1.0.0
+bleach==3.1.0  # Vulnerable version included for testing purposes
